@@ -6,11 +6,8 @@ var today = new Date();
 var prefix = "images/home/";
 switch (today.getDay())
 {
-    case 0:   
-    case 1:
+    default:
         prefix += "r";
-        break;
-    
 }
 
 //Use that prefix to put the proper sequence of image filenames into an array
